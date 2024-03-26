@@ -1,0 +1,16 @@
+[styles]
+info = yellow1
+warning = dark_orange
+fail = bold red
+pass = bold green
+banner_blue = dodger_blue3 bold
+banner_color = bold green
+orange_color = dark_orange
+critical = bold bright_red
+high = bold red
+medium = bold dark_orange
+low = bold yellow1
+
+
+
+# style names must be lower case, start with a letter, and only contain letters or the characters ".", "-", "_".
