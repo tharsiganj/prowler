@@ -88,6 +88,14 @@ hr {
   /* 3 */
 }
 
+span {
+  color: black;
+}
+
+span:hover {
+  background-color: #d0e4f8;
+}
+
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
@@ -843,12 +851,19 @@ video {
 
 .bg-prowler-stone-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255);
+  border-right: 0.5px solid #edf0f7;
+  margin-right: 0.2%;
+}
+
+.bg-prowler-stone-950 :hover{
+  --tw-bg-opacity: 1;
+  background-color: #d0e4f8 !important;
 }
 
 .bg-prowler-stone-950 {
   --tw-bg-opacity: 1;
-  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
+  background-color: #d0e4f8 !important;
 }
 
 .bg-prowler-white {
@@ -1002,7 +1017,7 @@ video {
 
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(24 24 24) !important;
 }
 
 .opacity-90 {

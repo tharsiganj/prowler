@@ -35,7 +35,7 @@ dashboard = dash.Dash(
 
 # Logo
 prowler_logo = html.Img(
-    src="https://prowler.com/wp-content/uploads/logo-dashboard.png", alt="Prowler Logo"
+    src="/assets/images/icons/secureNex.png", alt="Prowler Logo"
 )
 
 menu_icons = {
@@ -156,20 +156,7 @@ def update_nav_bar(pathname):
             ),
             html.Nav(
                 [
-                    html.A(
-                        [
-                            html.Span(
-                                [
-                                    html.Img(src="assets/favicon.ico", className="w-5"),
-                                    "Subscribe to prowler SaaS",
-                                ],
-                                className="flex items-center gap-x-3 text-white",
-                            ),
-                        ],
-                        href="https://prowler.com/",
-                        target="_blank",
-                        className="block p-3 uppercase text-xs hover:bg-prowler-stone-950 hover:border-r-4 hover:border-solid hover:border-prowler-lime",
-                    ),
+                    
                     html.Ul(generate_help_menu(), className=""),
                 ],
                 className="flex flex-col gap-y-6 mt-auto",
